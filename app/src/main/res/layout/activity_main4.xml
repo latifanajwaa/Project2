@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@color/purple_200"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CX3"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:textSize="20sp"
+            android:text="Mazda"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="TYPE-R"
+            android:textSize="15sp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="310 Hp"
+            android:textSize="17sp"
+            android:textColor="@color/design_default_color_primary_dark" />
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/civic"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/civic"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@color/purple_200"
+        android:padding="5dp"
+        android:layout_marginTop="200dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMRY"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:textSize="20sp"
+            android:text="Toyota"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="2020"
+            android:textSize="15sp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="203 Hp"
+            android:textSize="17sp"
+            android:textColor="@color/design_default_color_primary_dark" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/camry"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/camry"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginTop="230dp"
+        />
+
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="580dp"
+
+        />
+
+
+</RelativeLayout>
